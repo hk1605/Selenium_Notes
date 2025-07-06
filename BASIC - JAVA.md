@@ -137,6 +137,7 @@ switch (expression) {
     default:
         // Code to be executed if none of the cases match
 }
+```
 
 ### If vs Switch-case: Key Differences
 
@@ -148,3 +149,58 @@ switch (expression) {
       | Logic Flexibility    | Supports AND, OR, method calls   | Only checks if equal to cases      |
       | Flow Control         | No fall-through                  | Needs `break` to stop fall-through |
       | Default Option       | Use `else`                      | Has built-in `default` case        |
+
+# Java Data Types and Related Concepts
+
+---
+
+### Data Types in Java
+
+Data types define the kind of data a variable can hold. In Java, there are two main types:
+
+### Syntax for Declaring Variables
+
+```java
+dataType variableName = value;
+
+dataType: The type of data (e.g., int, double, String).
+
+variableName: The variable’s name.
+
+value: The value assigned to the variable
+```
+### Data Types in Java
+
+| Type              | Description                  | Example               |
+|-------------------|------------------------------|-----------------------|
+| **Primitive**     | Basic data types              |                       |
+| `int`             | Integer numbers              | `int age = 25;`       |
+| `double`          | Decimal numbers              | `double price = 9.99;`|
+| `char`            | Single character             | `char grade = 'A';`   |
+| `boolean`         | True or false                | `boolean flag = true;`|
+| **Non-Primitive** | Objects and classes          |                       |
+| `String`          | Text data                   | `String name = "Hi";`  |
+| `Integer`         | Wrapper class for int        | `Integer num = 10;`    |
+
+---
+
+### Variable Storage: RAM
+
+All variable data is temporarily stored in **RAM** while the program runs.
+
+| Feature      | RAM                                |
+|--------------|-----------------------------------|
+| Type         | Temporary (Volatile)               |
+| Created when | Program starts running             |
+| Deleted when | Program ends or system shuts down |
+| Purpose      | Fast, short-term data access       |
+
+---
+
+### Differences Between `=`, `==`, and `.equals()`
+
+| Symbol/Method | Use For       | Compares                              | Example             |
+|---------------|--------------|-------------------------------------|---------------------|
+| `=`           | Assignment   | Assigns value to a variable          | `int x = 5;`        |
+| `==`          | Comparison   | Checks if primitive values are equal or if objects have the same memory address | `x == y` (primitives or references) |
+| `.equals()`   | String/Object| Checks if objects have the same content/data | `str1.equals(str2)` |
