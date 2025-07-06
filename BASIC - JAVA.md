@@ -139,13 +139,12 @@ switch (expression) {
 }
 
 ### If vs Switch-case: Key Differences
-      | Aspect               | `if` Statement                      | `switch` Statement                       |
-      | -------------------- | ----------------------------------- | ---------------------------------------- |
-      | Expression Type      | Complex conditions allowed          | Simple values (int, char, enum)          |
-      | Number of Conditions | Good for few or complex conditions  | Best for many simple conditions          |
-      | Condition Type       | Relational, logical, method calls   | Equality comparisons only                |
-      | Flexibility          | Handles complex logical expressions | Limited to equality checks               |
-      | Flow Control         | No fall-through                     | Requires `break` to prevent fall-through |
-      | Default Handling     | Use `else` for default              | Has built-in `default` case              |
 
-
+      | Aspect               | `if` Statement                    | `switch` Statement                  |
+      |----------------------|---------------------------------|-----------------------------------|
+      | Condition Type       | Complex and multiple conditions  | Simple equal-value checks          |
+      | Number of Choices    | Few or complex conditions        | Many options for one variable      |
+      | Data Types           | Any type (int, boolean, etc.)    | Limited types (int, char, String)  |
+      | Logic Flexibility    | Supports AND, OR, method calls   | Only checks if equal to cases      |
+      | Flow Control         | No fall-through                  | Needs `break` to stop fall-through |
+      | Default Option       | Use `else`                      | Has built-in `default` case        |
