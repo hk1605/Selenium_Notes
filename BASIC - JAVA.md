@@ -44,3 +44,39 @@
                         Output Shown to User
                         End
 
+
+
+---
+
+## ✅ Java Components Explained
+
+### **1️⃣ JDK – Java Development Kit**
+
+🔹 Think of JDK as a **toolbox for developers**  
+🔹 It includes:  
+ ✔ Java Compiler (to convert code to bytecode)  
+ ✔ JRE (to run the code)  
+ ✔ Development tools  
+📌 **Use:** If you're writing or developing Java programs, you need JDK.
+
+---
+
+### **2️⃣ JRE – Java Runtime Environment**
+
+🔹 JRE is like a **player** that runs Java programs  
+🔹 It includes:  
+ ✔ JVM (to run the bytecode)  
+ ✔ Core libraries  
+📌 **Use:** If you're only running Java apps (not creating them), JRE is enough.
+
+---
+
+### **3️⃣ JVM – Java Virtual Machine**
+
+🔹 JVM is the **heart of Java**  
+🔹 It takes bytecode (compiled Java code) and **converts it into machine code**  
+🔹 Makes Java **platform-independent**  
+📌 **Use:** JVM lets the same Java program run on any OS (Windows, Linux, etc.)
+
+---
+
