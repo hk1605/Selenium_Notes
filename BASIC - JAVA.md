@@ -162,13 +162,13 @@ Data types define the kind of data a variable can hold. In Java, there are two m
 
 ```java
 dataType variableName = value;
-
+```
 dataType: The type of data (e.g., int, double, String).
 
 variableName: The variable’s name.
 
 value: The value assigned to the variable
-```
+
 ### Data Types in Java
 
 | Type              | Description                  | Example               |
