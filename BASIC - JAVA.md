@@ -21,32 +21,7 @@
 
 # 🔁 Java Architecture 
 
-                              Start
-                          ↓
-                        Write Java Code (HelloWorld.java)
-                          ↓
-                        JDK (Java Development Kit)
-                          ↓
-                        ✔ Java Compiler compiles code
-                          ↓
-                        Bytecode is generated (.class file)
-                          ↓
-                        JRE (Java Runtime Environment)
-                          ↓
-                        ✔ JVM (Java Virtual Machine)
-                             ↓
-                           Executes Bytecode
-                             ↓
-                           Converts to Machine Code
-                          ↓
-                        Runs on Any OS (Windows, Linux, etc.)
-                          ↓
-                        Output Shown to User
-                        End
-
-
-
----
+---![1d02dcce-99f3-4234-9556-2f73f096bf95](https://github.com/user-attachments/assets/091a929a-a95b-4eea-b16e-0f0a36af6693)
 
 ## ✅ Java Components Explained
 
@@ -78,6 +53,5 @@
 🔹 Makes Java **platform-independent**  
 📌 **Use:** JVM lets the same Java program run on any OS (Windows, Linux, etc.)
 
----![1d02dcce-99f3-4234-9556-2f73f096bf95](https://github.com/user-attachments/assets/091a929a-a95b-4eea-b16e-0f0a36af6693)
 
 
