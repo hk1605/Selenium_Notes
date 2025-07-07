@@ -54,27 +54,61 @@
 📌 **Use:** JVM lets the same Java program run on any OS (Windows, Linux, etc.)
 
 ### IDE:
-  1. *Definition:*
+  
       An IDE, or Integrated Development Environment, is like a digital workspace where programmers write, edit, and manage their code. It provides tools such as a code editor, debugger, and compiler, all in one place, making it easier for developers to create and maintain their software.
 
 ### Package:
-   1. *Definition:*
+   
       In Java, a package is a way to organize and group related classes and interfaces. It helps in avoiding naming conflicts and enhances the overall structure of a program.
 
 ### Class:
-   1. *Definition:*
+  
       In Java, a class is a blueprint or template that defines the properties (attributes) and behaviors (methods) that objects created from the class will have.
 
 ### Variables:
-   1. *Definition:*
+ 
      Variables in Java are like containers that store data. They have a type (int, double, String) and a name. Use variables to store and manipulate data.
 
-### Datatypes:
-   1. *Definition:*
-       Datatypes specify the type of data a variable can hold. 
+### Data Types in Java
+
+Data types define the kind of data a variable can hold. In Java, there are two main types:
+
+### Syntax for Declaring Variables
+
+```java
+dataType variableName = value;
+```
+
+### Data Types in Java
+
+| Type              | Description                  | Example               |
+|-------------------|------------------------------|-----------------------|
+| **Primitive**     | Basic data types              |                       |
+| `int`             | Integer numbers              | `int age = 25;`       |
+| `double`          | Decimal numbers              | `double price = 9.99;`|
+| `char`            | Single character             | `char grade = 'A';`   |
+| `boolean`         | True or false                | `boolean flag = true;`|
+| **Non-Primitive** | Objects and classes          |                       |
+| `String`          | Text data                   | `String name = "Hi";`  |
+| `Integer`         | Wrapper class for int        | `Integer num = 10;`    |
+
+--- 
+### Variable Storage: RAM
+
+All variable data is temporarily stored in **RAM** while the program runs.
+
+| Feature      | RAM                                |
+|--------------|-----------------------------------|
+| Type         | Temporary (Volatile)               |
+| Created when | Program starts running             |
+| Deleted when | Program ends or system shuts down |
+| Purpose      | Fast, short-term data access       |
+
+---
+
 
 ### Conditional Statements:
-   1. Conditional statements  are used to control the flow of the program based on certain conditions. These statements allow the program to make decisions and execute different blocks of code depending on whether a specified condition evaluates to true or false. The primary conditional statements in Java include:
+     Conditional statements  are used to control the flow of the program based on certain conditions. These statements allow the program to make decisions and execute different blocks of code depending on whether a specified condition evaluates to true or false. The primary conditional statements in Java include:
 
 ### 1. `if` Statement:
 
@@ -120,7 +154,7 @@ if (condition1) {
 
 ### Switch-case statement:
 
-1.  The switch-case statement in Java is a conditional statement used to make decisions based on the value of an expression. 
+    The switch-case statement in Java is a conditional statement used to make decisions based on the value of an expression. 
  - The switch statement evaluates the expression and then compares it against various case values. When a match is found, the associated block of code is executed.
 
 **Syntax:**
@@ -141,59 +175,15 @@ switch (expression) {
 
 ### If vs Switch-case: Key Differences
 
-      | Aspect               | `if` Statement                    | `switch` Statement                  |
-      |----------------------|---------------------------------|-----------------------------------|
-      | Condition Type       | Complex and multiple conditions  | Simple equal-value checks          |
-      | Number of Choices    | Few or complex conditions        | Many options for one variable      |
-      | Data Types           | Any type (int, boolean, etc.)    | Limited types (int, char, String)  |
-      | Logic Flexibility    | Supports AND, OR, method calls   | Only checks if equal to cases      |
-      | Flow Control         | No fall-through                  | Needs `break` to stop fall-through |
-      | Default Option       | Use `else`                      | Has built-in `default` case        |
+      | **Aspect**             | **`if` Statement**                        | **`switch` Statement**                     |
+|------------------------|-------------------------------------------|-------------------------------------------|
+| **Condition Type**     | Complex and multiple conditions           | Simple equal-value checks                 |
+| **Number of Choices**  | Few or complex conditions                 | Many options for one variable             |
+| **Data Types**         | Any type (`int`, `boolean`, etc.)         | Limited types (`int`, `char`, `String`)   |
+| **Logic Flexibility**  | Supports `&&`, `||`, method calls         | Only checks if equal to constant values   |
+| **Flow Control**       | No fall-through                          | Needs `break` to stop fall-through        |
+| **Default Option**     | Use `else`                               | Has built-in `default` case               |
 
-# Java Data Types and Related Concepts
-
----
-
-### Data Types in Java
-
-Data types define the kind of data a variable can hold. In Java, there are two main types:
-
-### Syntax for Declaring Variables
-
-```java
-dataType variableName = value;
-```
-dataType: The type of data (e.g., int, double, String).
-
-variableName: The variable’s name.
-
-value: The value assigned to the variable
-
-### Data Types in Java
-
-| Type              | Description                  | Example               |
-|-------------------|------------------------------|-----------------------|
-| **Primitive**     | Basic data types              |                       |
-| `int`             | Integer numbers              | `int age = 25;`       |
-| `double`          | Decimal numbers              | `double price = 9.99;`|
-| `char`            | Single character             | `char grade = 'A';`   |
-| `boolean`         | True or false                | `boolean flag = true;`|
-| **Non-Primitive** | Objects and classes          |                       |
-| `String`          | Text data                   | `String name = "Hi";`  |
-| `Integer`         | Wrapper class for int        | `Integer num = 10;`    |
-
----
-
-### Variable Storage: RAM
-
-All variable data is temporarily stored in **RAM** while the program runs.
-
-| Feature      | RAM                                |
-|--------------|-----------------------------------|
-| Type         | Temporary (Volatile)               |
-| Created when | Program starts running             |
-| Deleted when | Program ends or system shuts down |
-| Purpose      | Fast, short-term data access       |
 
 ---
 
