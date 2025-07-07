@@ -173,9 +173,9 @@ switch (expression) {
 }
 ```
 
-### If vs Switch-case: Key Differences
+#### ✅ If vs Switch-case: Key Differences
 
-      | **Aspect**             | **`if` Statement**                        | **`switch` Statement**                     |
+| **Aspect**             | **`if` Statement**                        | **`switch` Statement**                     |
 |------------------------|-------------------------------------------|-------------------------------------------|
 | **Condition Type**     | Complex and multiple conditions           | Simple equal-value checks                 |
 | **Number of Choices**  | Few or complex conditions                 | Many options for one variable             |
@@ -183,7 +183,6 @@ switch (expression) {
 | **Logic Flexibility**  | Supports `&&`, `||`, method calls         | Only checks if equal to constant values   |
 | **Flow Control**       | No fall-through                          | Needs `break` to stop fall-through        |
 | **Default Option**     | Use `else`                               | Has built-in `default` case               |
-
 
 ---
 
